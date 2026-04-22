@@ -1,0 +1,14 @@
+[
+  {
+    "service": "payment-service",
+    "issue": "NullPointerException in discount logic",
+    "root_cause": "Missing null check",
+    "tags": ["null", "discount"]
+  },
+  {
+    "service": "order-service",
+    "issue": "Order total mismatch",
+    "root_cause": "Rounding issue",
+    "tags": ["calculation", "rounding"]
+  }
+]

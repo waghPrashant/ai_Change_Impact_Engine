@@ -1,0 +1,5 @@
+{
+  "payment-service": ["order-service"],
+  "order-service": ["notification-service"],
+  "user-service": ["order-service"]
+}
